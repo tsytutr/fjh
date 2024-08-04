@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    width: 100%;
+    height: 100vh;
+}
+.container {
+    width: 80%;
+ margin: auto;
+}
+.navbar {
+    background-color: #333a40;
+    width: 100%;
+    padding: 10px 0;
+}
+.navbar .container {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2 {
+    color: #001d5c;
+    font-size:40px;
+}
+a {
+    color: var(--mainc);
+}
+.welcome {
+    height: calc(100vh - 50px);
+    background-image: url(WhatsApp\ Image\ 2024-08-02\ at\ 20.00.56_922d190f.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+.welcome div {
+    text-align: center;
+    color: rgb(16, 3, 46);
+    /* From Uiverse.io by neerajbaniwal */ 
+.btn-shine {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 12px 48px;
+    color: #fff;
+    background: linear-gradient(to right, #9f9f9f 0, #fff 10%, #868686 20%);
+    background-position: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+    animation-fill-mode: forwards;
+    -webkit-text-size-adjust: none;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    white-space: nowrap;
+    font-family: "Poppins", sans-serif;
+  }
+  @-moz-keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 180px;
+    }
+    100% {
+      background-position: 180px;
+    }
+  }
+  @-webkit-keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 180px;
+    }
+    100% {
+      background-position: 180px;
+    }
+  }
+  @-o-keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 180px;
+    }
+    100% {
+      background-position: 180px;
+    }
+  }
+  @keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 180px;
+    }
+    100% {
+      background-position: 180px;
+    }
+  }
+  
+}
+
+.welcome .overlay {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.services {
+    width: 100%;
+    margin-top: 20px;
+    
+}
+.services h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.game{
+    display: flex;
+    justify-content: space-between;
+}
+.game1 {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.game1 h3,
+.game1 p {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+.game1 p {
+    color: rgb(184, 184, 184);
+}
+.services2 {
+    width: 100%;
+    margin-top: 20px;
+    
+}
+.services2 h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.game3{
+    display: flex;
+    justify-content: space-between;
+}
+.game2 {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.game2 h3,
+.game2 p {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+.game2 p {
+    color: rgb(184, 184, 184);
+}
+.container2 {
+    width: 80%;
+ margin: auto;
+}
+.h7{
+    background-color: rgba(39, 39, 173, 0.699);
+}
+
+@media (min-width:950px) and (max-width:1150px){
+    .content .image img{
+        width: 330px;
+    }
+}
+@media (max-width:950px){
+    .content{
+        flex-direction: column;
+        justify-content: center;
+    }
